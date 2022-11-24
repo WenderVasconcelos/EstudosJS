@@ -1,5 +1,6 @@
-var numero = Math.random() * 101;
+// WHILE
 
+var numero = Math.random() * 101;
 
 console.log(numero);
 
