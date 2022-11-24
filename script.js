@@ -1,12 +1,12 @@
-// WHILE
+//RESUMO OBJETOS
 
-var numero = Math.random() * 101;
+function obj(n, s){
+    this.nome = n;
+    this.sobrenome = s;
 
-console.log(numero);
-
-while(numero < 100) {
-    console.log(numero);
-    numero = Math.random() * 101;
+    
 }
-console.log(numero);
-console.log("Acabou");
+
+var a = new obj("Wender","Vasconcelos")
+
+console.log(a);
