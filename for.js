@@ -1,8 +1,11 @@
-var numero = 5;
+var numero = Math.random() * 101;
 
-while(numero < 10) {
-    console.log("Número " + numero);
-    numero++;
+
+console.log(numero);
+
+while(numero < 100) {
+    console.log(numero);
+    numero = Math.random() * 101;
 }
-
+console.log(numero);
 console.log("Acabou");
