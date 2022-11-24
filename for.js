@@ -1,9 +1,8 @@
 var numero = 5;
 
-for(var i = 0; i < 5; i++ ){
-
-console.log("Executando o for, pela " + i + " vez");
-
+while(numero < 10) {
+    console.log("Número " + numero);
+    numero++;
 }
 
 console.log("Acabou");
