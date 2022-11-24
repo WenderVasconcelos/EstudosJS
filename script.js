@@ -1,12 +1,7 @@
-//RESUMO OBJETOS
+//Data
+var d = new Date(2022, 10, 24, 19, 33, 22);
 
-function obj(n, s){
-    this.nome = n;
-    this.sobrenome = s;
+var dias = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex"]
 
-    
-}
-
-var a = new obj("Wender","Vasconcelos")
-
-console.log(a);
+console.log(d);
+console.log(dias[d.getDay()]);
