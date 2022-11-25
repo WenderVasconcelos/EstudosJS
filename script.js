@@ -1,7 +1,8 @@
-//Data
-var d = new Date(2022, 10, 24, 19, 33, 22);
-
-var dias = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex"]
-
-console.log(d);
-console.log(dias[d.getDay()]);
+function changeH1(input){
+    let h1 = document.getElementsByTagName("h1")[0];
+    h1.innerText = input.value;
+}
+function hideH1(){
+    let h1 = document.getElementsByTagName("h1")[0];
+    h1.style.display = "none";
+}

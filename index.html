@@ -1,28 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1 style="
-    color: rgb(220, 87, 87); 
-    text-align: center; 
-    font-family: Arial, Helvetica, sans-serif;
-    ">
-        CURSO DESENVOLVIMENTO WEB
-    </h1>
-    <p style="
-    color: rgb(113, 77, 77); 
-    text-align: center; 
-    font-family: Arial, Helvetica, sans-serif;
-    ">Conteúdo no console - Press F12</p>
+    <h1>Clique em mim</h1>
+    <input type="text" onchange="changeH1(this)" placeholder="Muda apos dar enter">
 
+    <input type="text" oninput="changeH1(this)" placeholder="Muda o texto instantaneamente">
 
+    <div onclick="hideH1()">Click for Hide h1</div>
+    
     <script src="/script.js"></script>
 </body>
 
